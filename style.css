@@ -12,22 +12,34 @@ body{
 section{
     height: 700px ;
     padding: 100px;
+    
 }
-
-
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 10px;
+}
+nav{
+    width: 84%;
+    margin: auto;
+}
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin:10px 20px;
+    margin:5px 20px;
     position: relative;
-    left:700px;
-    top:20px;
+    left:600px;
+    bottom: 50px;
+    
     
 }
 nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color:black;
+}
+nav ul li a:hover{
+    color:tomato;
 }
 .half-width{
     width: 40%;
@@ -38,7 +50,6 @@ nav ul li a{
 }
 .intro-area h1{
     font-size: 60px;
-    
     font-weight: 600;
     color:#31344e;
     text-transform: uppercase;
@@ -58,7 +69,7 @@ nav ul li a{
 .link-button{
   background-color:tomato;
   border-radius: 5px;
-    text-decoration: none;
+   text-decoration: none;
     margin:10px 0;
     padding: 10px 18px;
     color:white;
@@ -107,14 +118,51 @@ nav ul li a{
 }
 .contact-area{
     text-align: center;
+    background-image: linear-gradient(180deg,tomato,orange);
 
 }
-.contact-area input textarea{
-   
-   width: 100%;
+.contact-area input,textarea{
+   width:100%;
    padding:10px 20px;
    text-align: center;
    font-size: 1rem;
+   border:none;
+   border-radius: 5px;
+   resize: none;
+}
+.contact-area button{
+    border: none;
+    border-radius: 12px;
+    background-color: teal;
+    color:white;
+    cursor: pointer;
+    padding:5px 10px;
+}
+.hr-dotted{
+    border-style: dotted;
+
+}
+.inquiry-area{
+    border:2px solid red;
+    border-radius: 30px;
+    margin: 50px 50px 50px 50px;
+    background-image: url("images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.inquiry-area h1{
+    font-size: 40px;
+    padding-top: 40px;
+    margin:10px;
+    color:white;
+    
+}
+.inquiry-area a{
+    position: relative;
+    left:900px;
+     bottom: 40px;
+    margin: 20px;
 }
 .footer-area{
     text-align: center;
@@ -130,6 +178,8 @@ nav ul li a{
 }
 .social-icon img{
     width: 40px;
-    
     margin: 20px 10px;
 }
+
+
+
